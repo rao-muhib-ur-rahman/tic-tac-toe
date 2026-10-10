@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body{
+    @apply bg-gray-900
+}
+
+.main{
+    @apply flex flex-col justify-center items-center h-screen gap-7
+}
+
+.heading{
+    @apply text-6xl font-bold text-amber-600
+}
+
+.gameDiv{
+    @apply grid grid-cols-3 gap-3 
+}
+
+.btn{
+    @apply flex justify-center items-center bg-white/80 w-[70px] h-[70px] rounded-lg border border-white text-amber-600 text-4xl
+}
+
+.resetBtn{
+    @apply rounded-2xl py-3 px-7 font-semibold text-2xl text-white
+}
+
+.winner{
+    @apply bg-blue-400 rounded-2xl py-3 px-7 font-semibold text-2xl text-white 
+}
